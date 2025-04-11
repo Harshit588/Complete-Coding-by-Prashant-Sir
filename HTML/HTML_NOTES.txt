@@ -69,3 +69,14 @@
 
         d. Horizontal Line Tags -> <hr> -> Horizontal line tag.
                 ex -> <hr> -> Horizontal line.
+
+        e. Bold Tags -> <b> -> Bold tag.
+                ex -> <b>This is a bold text</b> -> Bold text.
+        
+        f. Italic Tags -> <i> -> Italic tag.
+                ex -> <i>This is an italic text</i> -> Italic text.
+        
+        g. Underline Tags -> <u> -> Underline tag.
+                ex -> <u>This is an underline text</u> -> Underline text.
+        
+        
