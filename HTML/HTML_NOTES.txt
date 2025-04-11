@@ -98,5 +98,15 @@
                 autoplay -> Autoplay attribute.
                 loop -> Loop attribute.
                 muted -> Muted attribute.
-                poster -> Poster attribute.
-                preload -> Preload attribute.
+
+        j. Audio Tags -> <audio> -> Audio tag.
+                ex -> <audio src="./Audio/Audio.mp3" autoplay controls loop></audio> Audio tag with src, controls, autoplay, loop, width and height attributes.
+
+                src -> Source attribute.
+                width -> Width attribute.
+                height -> Height attribute.
+                controls -> Controls attribute.
+                autoplay -> Autoplay attribute.
+                loop -> Loop attribute.
+                muted -> Muted attribute.
+                hidden -> Hidden attribute.
