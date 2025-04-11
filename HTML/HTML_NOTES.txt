@@ -1,0 +1,71 @@
+// HTML Notes.
+
+1. Level 1-> Basic of HTML.
+
+    1. ! -> Code Generator.
+        ex ->
+        <!DOCTYPE html> -> Document type declaration.
+        <html lang="en"> -> HTML tag.
+            lang -> Language attribute.
+                ex -> <html lang="en"> -> English language.
+                ex -> <html lang="fr"> -> French language.
+
+        <head>  -> Head tag.
+
+            <meta charset="UTF-8"> -> Character set.
+                ex -> <meta charset="UTF-8"> -> UTF-8 character set.
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> -> Viewport tag.
+                ex -> <meta name="viewport" content="width=device-width, initial-scale=1.0"> -> Responsive design.
+
+            <title>Document</title> -> Title tag.
+                ex -> <title>My First HTML Code</title> -> Title of the document.
+
+        </head> -> closing head tag.
+
+        <body> -> Body tag.
+
+            <h1>This is my first HTML Code</h1> -> Heading tag.
+                ex -> <h6>This is my first HTML Code</h6> -> Heading 6.
+
+        </body> -> closing body tag.
+
+        </html> -> closing HTML tag.
+
+    2. Comments in HTML->
+        1. <!-- This is a comment --> -> Comment tag.
+            ex -> <!-- This is my first HTML code --> -> Comment.
+
+    3. Case Sensitive->
+        1. HTML tags are not case sensitive.
+            ex -> <h1> -> <H1> 
+                  <head> -> <HEAD>
+                  <body> -> <BODY>
+                  <html> -> <HTML>
+
+2. Level 2 -> HTML Tags.
+
+    1. HTML attribute ->
+        syntex -> <tagname attribute="value"> -> Attribute tag.
+            ex -> <a href="https://www.google.com">Google</a> -> Anchor tag with href attribute.
+                ex -> <img src="image.jpg" alt="Image"> -> Image tag with src and alt attributes.
+
+    2. HTML Tags -> 
+        
+        a. Heading Tags -> <h1> -> <h6> -> Heading tags.
+                ex -> <h1>This is a heading</h1> -> Heading 1.
+                ex -> <h2>This is a heading</h2> -> Heading 2.
+                ex -> <h3>This is a heading</h3> -> Heading 3.
+                ex -> <h4>This is a heading</h4> -> Heading 4.
+                ex -> <h5>This is a heading</h5> -> Heading 5.
+                ex -> <h6>This is a heading</h6> -> Heading 6.
+
+        b. Paragraph Tags -> <p> -> Paragraph tag.
+                ex -> <p>This is a paragraph</p> -> Paragraph. 
+                lorem500 -> given 500 words of lorem ipsum text.
+
+        c. Line Break Tags -> <br> -> Line break tag.
+                ex -> <br> -> Line break.
+
+        d. Horizontal Line Tags -> <hr> -> Horizontal line tag.
+                ex -> <hr> -> Horizontal line.
