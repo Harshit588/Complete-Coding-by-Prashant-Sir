@@ -97,3 +97,6 @@
                 controls -> Controls attribute.
                 autoplay -> Autoplay attribute.
                 loop -> Loop attribute.
+                muted -> Muted attribute.
+                poster -> Poster attribute.
+                preload -> Preload attribute.
