@@ -79,4 +79,21 @@
         g. Underline Tags -> <u> -> Underline tag.
                 ex -> <u>This is an underline text</u> -> Underline text.
         
-        
+        h. Image Tags -> <img> -> Image tag.
+                ex -> <img src="image.jpg" alt="Image"> -> Image tag with src and alt attributes.
+                ex -> <img src="image.jpg" alt="Image" width="500" height="500"> -> Image tag with src, alt, width and height attributes.
+
+                src -> Source attribute.
+                alt -> Alternative text attribute.
+                width -> Width attribute.
+                height -> Height attribute.
+
+        i. Video Tags -> <video> -> Video tag.
+                ex ->  <video src="./Videos/MoutainVideo.mp4" width="200px" autoplay controls loop></video> Video tag with src, controls, autoplay, loop, width and height attributes.
+
+                src -> Source attribute.
+                width -> Width attribute.
+                height -> Height attribute.
+                controls -> Controls attribute.
+                autoplay -> Autoplay attribute.
+                loop -> Loop attribute.
