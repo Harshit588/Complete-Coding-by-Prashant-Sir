@@ -1,0 +1,78 @@
+CSS NOTES => 
+
+1. Level -> CSS Basic.
+
+     Cascading Style Sheets.
+        1. CSS is a style sheet language used for describing the presentation of a document written in HTML or XML.
+        2. CSS describes how HTML elements should be displayed on screen, paper, or in other media.
+        3. CSS can control the layout of multiple web pages all at once.
+        4. External stylesheets are stored in CSS files.
+
+    
+
+        1. Styling Types -> 
+            1. Inline -> 
+                1. <h1 style="color: red;">Hello World</h1> -> h1 tag with red color.
+                2. <p style="font-size: 20px;">Hello World</p> -> p tag with font size of 20px.
+                3. <body style="background-color: blue;">Hello World</body> -> body tag with blue background color.
+            2. Internal -> 
+                1. <style> h1 { color: red; } </style> -> h1 tag with red color.
+                2. <style> p { font-size: 20px; } </style> -> p tag with font size of 20px.
+                3. <style> body { background-color: blue; } </style> -> body tag with blue background color.
+            3. External -> 
+                1. <link rel="stylesheet" type="text/css" href="style.css"> -> link to external CSS file.
+
+        2. DOM -> Document Object Model.
+                uses -> a. Structure Understanding.
+                        b. Dynamic Styling
+
+        3. Comments -> 
+            1. Single line -> /* comment */ -> single line comment.
+            2. Multi line -> /* comment */ -> multi line comment.
+
+        4. selector { property: value; } -> CSS syntex.
+            ex -> h1 { color: red; } -> h1 tag with red color.
+            ex -> p { font-size: 20px; } -> p tag with font size of 20px.
+            ex -> body { background-color: blue; } -> body tag with blue background color.
+
+            => Types of selector ->
+                a. Universal selector -> * { property: value; } -> applies to all elements.
+                b. Type selector -> h1 { property: value; } -> applies to all h1 elements.
+                c. id and class selector -> 
+                        #id { property: value; } -> applies to all elements with id.
+                        .class { property: value; } -> applies to all elements with class.
+            d. Grouping selector -> h1, p { property: value; } -> applies to all h1 and p elements.
+            e. Descendant selector -> div p { property: value; } -> applies to all p elements inside div.
+
+        5. Colour property -> 
+          1. color -> Text color.
+            ex -> h1 { color: red; } -> h1 tag with red color.
+            ex -> p { color: blue; } -> p tag with blue color.
+            ex -> body { color: green; } -> body tag with green color.
+
+
+2. Level2 -> 
+
+        1. background-color -> Background color.
+            ex -> h1 { background-color: red; } -> h1 tag with red background color.
+            ex -> p { background-color: blue; } -> p tag with blue background color.
+            ex -> body { background-color: green; } -> body tag with green background color.
+
+        2. Absolute unit -> 
+            1. px -> Pixels. -> 1px = 1/96 inch. -> 1px = 0.75pt.
+            2. cm -> Centimeters.
+            3. mm -> Millimeters.
+            4. in -> Inches.
+            5. pt -> Points.
+            6. pc -> Picas.
+
+        3. Height and Width -> 
+            1. height -> Height of the element.
+                ex -> h1 { height: 100px; } -> h1 tag with height of 100px.
+                ex -> p { height: 200px; } -> p tag with height of 200px.
+                ex -> body { height: 300px; } -> body tag with height of 300px.
+
+            2. width -> Width of the element.
+                ex -> h1 { width: 100px; } -> h1 tag with width of 100px.
+                ex -> p { width: 200px; } -> p tag with width of 200px.
+                ex -> body { width: 300px; } -> body tag with width of 300px. 
