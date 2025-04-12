@@ -149,4 +149,54 @@
                 ex -> &gt; -> >
                 ex -> &amp; -> &
         
-3. Level 3 -> 
+3. Level 3 -> HTML and Project Structure ->
+
+        a. Sementic and asementic tags difference ->
+                1. Semantic tags -> used for Desribe content 
+                        <header> -> <footer> -> <nav> -> <article> -> <section> -> <aside> -> <figure> -> <figcaption> -> <main> -> <mark> -> <time> -> <address>.
+                                ex -> <header>This is a header</header> -> Header tag.
+                                ex -> <footer>This is a footer</footer> -> Footer tag.
+                                ex -> <nav>This is a nav</nav> -> Nav tag.
+                                ex -> <article>This is an article</article> -> Article tag.
+                                ex -> <section>This is a section</section> -> Section tag.
+                                ex -> <aside>This is an aside</aside> -> Aside tag.
+                                ex -> <figure>This is a figure</figure> -> Figure tag.
+                                ex -> <figcaption>This is a figcaption</figcaption> -> Figcaption tag.
+                                ex -> <main>This is a main</main> -> Main tag.
+                                ex -> <mark>This is a mark</mark> -> Mark tag.
+                                ex -> <time>This is a time</time> -> Time tag.
+                                ex -> <address>This is an address</address> -> Address tag.
+
+                2. Asementic tags-> No meaning of content.
+                        <div><span><b><i><u><s><p><h1><h2><h3><h4><h5><h6>
+                                ex -> <div>This is a div</div> -> Div tag.
+                                ex -> <span>This is a span</span> -> Span tag.
+                                ex -> <b>This is a bold text</b> -> Bold tag.
+                                ex -> <i>This is an italic text</i> -> Italic tag.
+                                ex -> <u>This is an underline text</u> -> Underline tag.
+                                ex -> <s>This is a strikethrough text</s> -> Strikethrough tag.
+                                ex -> <p>This is a paragraph</p> -> Paragraph tag.
+                                ex -> <h1>This is a heading</h1> -> Heading tag.
+
+        b. Body Tags -> 
+
+                1. Header Tags -> <header> -> Header tag.
+                        ex -> <header>This is a header</header> -> Header tag.
+
+                2. Main Tags -> <main> -> Main tag.
+                        ex -> <main>This is a main</main> -> Main tag.
+                        
+                        Main tag -> used for main content of the page.
+                        Main tag -> only one main tag is allowed in a page.
+
+                        TYPES OF MAIN TAG -> 
+                            1. <section> -> Section tag.
+                            2. <article> -> Article tag.
+                            3. <aside> -> Aside tag.
+
+                3. Footer Tags -> <footer> -> Footer tag.
+                        ex -> <footer>This is a footer</footer> -> Footer tag.
+                        Footer tag -> used for footer content of the page.
+
+                4. 
+                        
