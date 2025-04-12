@@ -76,3 +76,8 @@ CSS NOTES =>
                 ex -> h1 { width: 100px; } -> h1 tag with width of 100px.
                 ex -> p { width: 200px; } -> p tag with width of 200px.
                 ex -> body { width: 300px; } -> body tag with width of 300px. 
+
+            3. Background image -> Background image.
+                ex -> h1 { background-image: url("image.jpg"); } -> h1 tag with background image.
+                ex -> p { background-image: url("image.jpg"); } -> p tag with background image.
+                ex -> body { background-image: url("image.jpg"); } -> body tag with background image.
