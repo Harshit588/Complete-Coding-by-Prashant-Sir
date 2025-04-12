@@ -79,7 +79,10 @@
         g. Underline Tags -> <u> -> Underline tag.
                 ex -> <u>This is an underline text</u> -> Underline text.
         
-        h. Image Tags -> <img> -> Image tag.
+        h. Strikethrough Tags -> <s> -> Strikethrough tag.
+                ex -> <s>This is a strikethrough text</s> -> Strikethrough text.
+        
+        i. Image Tags -> <img> -> Image tag.
                 ex -> <img src="image.jpg" alt="Image"> -> Image tag with src and alt attributes.
                 ex -> <img src="image.jpg" alt="Image" width="500" height="500"> -> Image tag with src, alt, width and height attributes.
 
@@ -88,7 +91,7 @@
                 width -> Width attribute.
                 height -> Height attribute.
 
-        i. Video Tags -> <video> -> Video tag.
+        j. Video Tags -> <video> -> Video tag.
                 ex ->  <video src="./Videos/MoutainVideo.mp4" width="200px" autoplay controls loop></video> Video tag with src, controls, autoplay, loop, width and height attributes.
 
                 src -> Source attribute.
@@ -99,7 +102,7 @@
                 loop -> Loop attribute.
                 muted -> Muted attribute.
 
-        j. Audio Tags -> <audio> -> Audio tag.
+        k. Audio Tags -> <audio> -> Audio tag.
                 ex -> <audio src="./Audio/Audio.mp3" autoplay controls loop></audio> Audio tag with src, controls, autoplay, loop, width and height attributes.
 
                 src -> Source attribute.
@@ -110,3 +113,40 @@
                 loop -> Loop attribute.
                 muted -> Muted attribute.
                 hidden -> Hidden attribute.
+
+        l. Anchor Tags -> <a> -> Anchor tag.
+                ex -> <a href="https://www.google.com">Google</a> -> Anchor tag with href attribute.
+                href -> Address of content
+                target -> Target attribute.
+                    type of target -> _blank, _self, _parent, _top.
+                        1. _blank -> Opens the link in a new tab.
+                        2. _self -> Opens the link in the same tab.
+                        3. _parent -> Opens the link in the parent frame.
+                        4. _top -> Opens the link in the full body of the window.
+
+                download -> Download attribute. 
+                    ex -> <a href="./Videos/MoutainVideo.mp4" download="MoutainVideo">Click to Download </a> -> Download attribute.
+                
+                rel -> Rel attribute.
+
+        m. Pre formatted Text Tags -> <pre> -> Preformatted text tag.
+                space and line break are preserved.
+                ex -> <pre>This is a preformatted text</pre> -> Preformatted text.
+
+        n. Big and Small Tags -> <big> -> <small> -> Big and small tag.
+                ex -> <big>This is a big text</big> -> Big text.
+                ex -> <small>This is a small text</small> -> Small text.
+
+        o. Subscript and Superscript Tags -> <sub> -> <sup> -> Subscript and superscript tag.
+                ex -> <sub>This is a subscript text</sub> -> Subscript text.
+                ex -> <sup>This is a superscript text</sup> -> Superscript text.
+
+        p. character entities -> <&> -> Character entities.
+                ex -> &copy; -> ©
+                ex -> &reg; -> ®
+                ex -> &trade; -> ™
+                ex -> &lt; -> <
+                ex -> &gt; -> >
+                ex -> &amp; -> &
+        
+3. Level 3 -> 
