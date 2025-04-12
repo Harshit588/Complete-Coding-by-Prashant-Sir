@@ -78,6 +78,28 @@ CSS NOTES =>
                 ex -> body { width: 300px; } -> body tag with width of 300px. 
 
             3. Background image -> Background image.
-                ex -> h1 { background-image: url("image.jpg"); } -> h1 tag with background image.
-                ex -> p { background-image: url("image.jpg"); } -> p tag with background image.
-                ex -> body { background-image: url("image.jpg"); } -> body tag with background image.
+                ex-> html -> <div id="icon"></div>
+                    css->
+                        #icon {
+                            height: 500px;
+                            width: 400px;
+                            background-image: url(https://w7.pngwing.com/pngs/390/229/png-transparent-logo-html5-brand-design-text-logo-number.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                        }
+
+            4. Visibility -> Visibility of the element.
+                1. visible -> Element is visible.
+                    ex -> h1 { visibility: visible; } -> h1 tag is visible.
+                    ex -> p { visibility: visible; } -> p tag is visible.
+                    ex -> body { visibility: visible; } -> body tag is visible.
+
+                2. hidden -> Element is hidden.
+                    ex -> h1 { visibility: hidden; } -> h1 tag is hidden.
+                    ex -> p { visibility: hidden; } -> p tag is hidden.
+                    ex -> body { visibility: hidden; } -> body tag is hidden.
+
+                3. collapse -> Element is collapsed.
+                    ex -> h1 { visibility: collapse; } -> h1 tag is collapsed.
+                    ex -> p { visibility: collapse; } -> p tag is collapsed.
+                    ex -> body { visibility: collapse; } -> body tag is collapsed.
