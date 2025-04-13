@@ -230,5 +230,6 @@ CSS NOTES =>
                 5. fantasy -> Fantasy font family.
                     example -> h1 { font-family: fantasy; } -> h1 tag with fantasy font family.
                     example -> p { font-family: fantasy; } -> p tag with fantasy font family.
-                
+
+            10. Icons using Fonts ->
                 
