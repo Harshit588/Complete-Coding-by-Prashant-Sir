@@ -171,3 +171,11 @@ CSS NOTES =>
                     example -> h1 { text-transform: uppercase; } -> h1 tag with uppercase.
                 3. lowercase -> Convert to lowercase.
                     example -> h1 { text-transform: lowercase; } -> h1 tag with lowercase.
+
+            5. Line height -> Line height.
+                example -> h1 { line-height: 1.5; } -> h1 tag with line height of 1.5.
+                example -> p { line-height: 2; } -> p tag with line height of 2.
+
+            6. font size -> Font size.
+                example -> h1 { font-size: 20px; } -> h1 tag with font size of 20px.
+                example -> p { font-size: 30px; } -> p tag with font size of 30px.
