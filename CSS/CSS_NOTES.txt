@@ -231,5 +231,13 @@ CSS NOTES =>
                     example -> h1 { font-family: fantasy; } -> h1 tag with fantasy font family.
                     example -> p { font-family: fantasy; } -> p tag with fantasy font family.
 
-            10. Icons using Fonts ->
+            10. Icons using Fonts -> using google 
+
+                    example ->   <link rel="stylesheet" 
+                                        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=menu" />
+
+                                <span class="material-symbols-outlined">
+                                    <a href="www.google.com" style="text-decoration: none;">menu</a>
+                                </span>
+
                 
