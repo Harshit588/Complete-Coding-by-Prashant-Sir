@@ -51,7 +51,7 @@ CSS NOTES =>
             ex -> body { color: green; } -> body tag with green color.
 
 
-2. Level2 -> 
+2. Level2 -> Background 
 
         1. background-color -> Background color.
             ex -> h1 { background-color: red; } -> h1 tag with red background color.
@@ -111,4 +111,40 @@ CSS NOTES =>
                     ex -> body { opacity: 0.5; } -> body tag with opacity of 0.5.
             
             6. shorthand property -> 
-                
+                example -> 
+                        background: url('/CSS/Images/CodingImage.jpg') no-repeat center/cover; -> background image with no repeat and center position.
+
+3. Level3 -> Text properties ->
+    
+        1. text-align -> Text alignment.
+            1. left -> Text is aligned to the left.
+                ex -> h1 { text-align: left; } -> h1 tag with left alignment.
+                ex -> p { text-align: left; } -> p tag with left alignment.
+                ex -> body { text-align: left; } -> body tag with left alignment.
+
+            2. right -> Text is aligned to the right.
+                ex -> h1 { text-align: right; } -> h1 tag with right alignment.
+                ex -> p { text-align: right; } -> p tag with right alignment.
+                ex -> body { text-align: right; } -> body tag with right alignment.
+
+            3. center -> Text is aligned to the center.
+                ex -> h1 { text-align: center; } -> h1 tag with center alignment.
+                ex -> p { text-align: center; } -> p tag with center alignment.
+                ex -> body { text-align: center; } -> body tag with center alignment.
+
+            4. justify -> Text is justified.
+                ex -> h1 { text-align: justify; } -> h1 tag with justified alignment.
+                ex -> p { text-align: justify; } -> p tag with justified alignment.
+                ex -> body { text-align: justify; } -> body tag with justified alignment.
+
+        2. Text Decoration properties -> 
+            1. UnderLine ->  
+                example -> h1 { text-decoration: underline; } -> h1 tag with underline.
+            2. OverLine -> 
+                example -> h1 { text-decoration: overline; } -> h1 tag with overline.
+            3. LineThrough ->
+                example -> h1 { text-decoration: line-through; } -> h1 tag with line-through.
+            4. None -> 
+                example -> h1 { text-decoration: none; } -> h1 tag with no decoration.
+            5. Blink ->
+                example -> h1 { text-decoration: blink; } -> h1 tag with blink.
