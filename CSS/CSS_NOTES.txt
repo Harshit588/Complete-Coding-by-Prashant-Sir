@@ -209,3 +209,26 @@ CSS NOTES =>
                 3. oblique -> Oblique font style.
                     example -> h1 { font-style: oblique; } -> h1 tag with oblique font style.
                     example -> p { font-style: oblique; } -> p tag with oblique font style.
+
+            9. font family -> Font family.
+                1. serif -> Serif font family.
+                    example -> h1 { font-family: serif; } -> h1 tag with serif font family.
+                    example -> p { font-family: serif; } -> p tag with serif font family.
+
+                2. sans-serif -> Sans-serif font family.
+                    example -> h1 { font-family: sans-serif; } -> h1 tag with sans-serif font family.
+                    example -> p { font-family: sans-serif; } -> p tag with sans-serif font family.
+
+                3. monospace -> Monospace font family.
+                    example -> h1 { font-family: monospace; } -> h1 tag with monospace font family.
+                    example -> p { font-family: monospace; } -> p tag with monospace font family.
+
+                4. cursive -> Cursive font family.
+                    example -> h1 { font-family: cursive; } -> h1 tag with cursive font family.
+                    example -> p { font-family: cursive; } -> p tag with cursive font family.
+
+                5. fantasy -> Fantasy font family.
+                    example -> h1 { font-family: fantasy; } -> h1 tag with fantasy font family.
+                    example -> p { font-family: fantasy; } -> p tag with fantasy font family.
+                
+                
