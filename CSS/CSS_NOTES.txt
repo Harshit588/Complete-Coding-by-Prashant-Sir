@@ -103,3 +103,12 @@ CSS NOTES =>
                     ex -> h1 { visibility: collapse; } -> h1 tag is collapsed.
                     ex -> p { visibility: collapse; } -> p tag is collapsed.
                     ex -> body { visibility: collapse; } -> body tag is collapsed.
+
+            5. Opacity -> Opacity of the element.
+                1. opacity -> Opacity of the element.
+                    ex -> h1 { opacity: 0.5; } -> h1 tag with opacity of 0.5.
+                    ex -> p { opacity: 0.5; } -> p tag with opacity of 0.5.
+                    ex -> body { opacity: 0.5; } -> body tag with opacity of 0.5.
+            
+            6. shorthand property -> 
+                
