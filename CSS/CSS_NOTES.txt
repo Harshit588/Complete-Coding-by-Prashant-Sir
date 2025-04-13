@@ -179,3 +179,33 @@ CSS NOTES =>
             6. font size -> Font size.
                 example -> h1 { font-size: 20px; } -> h1 tag with font size of 20px.
                 example -> p { font-size: 30px; } -> p tag with font size of 30px.
+            
+            7. font weight -> Font weight.
+                1. normal -> Normal font weight.
+                    example -> h1 { font-weight: normal; } -> h1 tag with normal font weight.
+                    example -> p { font-weight: normal; } -> p tag with normal font weight.
+
+                2. bold -> Bold font weight.
+                    example -> h1 { font-weight: bold; } -> h1 tag with bold font weight.
+                    example -> p { font-weight: bold; } -> p tag with bold font weight.
+
+                3. bolder -> Bolder font weight.
+                    example -> h1 { font-weight: bolder; } -> h1 tag with bolder font weight.
+                    example -> p { font-weight: bolder; } -> p tag with bolder font weight.
+
+                4. lighter -> Lighter font weight.
+                    example -> h1 { font-weight: lighter; } -> h1 tag with lighter font weight.
+                    example -> p { font-weight: lighter; } -> p tag with lighter font weight.
+            
+            8. font Style -> Font style.
+                1. normal -> Normal font style.
+                    example -> h1 { font-style: normal; } -> h1 tag with normal font style.
+                    example -> p { font-style: normal; } -> p tag with normal font style.
+
+                2. italic -> Italic font style.
+                    example -> h1 { font-style: italic; } -> h1 tag with italic font style.
+                    example -> p { font-style: italic; } -> p tag with italic font style.
+
+                3. oblique -> Oblique font style.
+                    example -> h1 { font-style: oblique; } -> h1 tag with oblique font style.
+                    example -> p { font-style: oblique; } -> p tag with oblique font style.
