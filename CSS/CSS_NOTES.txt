@@ -240,4 +240,30 @@ CSS NOTES =>
                                     <a href="www.google.com" style="text-decoration: none;">menu</a>
                                 </span>
 
-                
+4. Level4 -> Box Model ->
+
+        1. Box Model -> 
+            1. Content -> Content of the element.
+                example -> h1 { width: 100px; height: 100px; } -> h1 tag with width and height of 100px.
+
+            2. Padding -> Space between content and border.
+                example -> h1 { padding: 10px; } -> h1 tag with padding of 10px.
+                example -> p { padding: 20px; } -> p tag with padding of 20px.
+
+            3. Border -> Border of the element.
+                example -> h1 { border: 1px solid black; } -> h1 tag with black border.
+                example -> p { border: 2px solid red; } -> p tag with red border.
+
+            4. Margin -> Space outside the element.
+                example -> h1 { margin: 10px; } -> h1 tag with margin of 10px.
+                example -> p { margin: 20px; } -> p tag with margin of 20px.
+
+        2. Box-sizing property -> Box sizing property.
+            example -> h1 { box-sizing: border-box; } -> h1 tag with border box sizing.
+            example -> p { box-sizing: content-box; } -> p tag with content box sizing.
+
+        3. Overflow property -> Overflow property.
+            example -> h1 { overflow: hidden; } -> h1 tag with hidden overflow.
+            example -> p { overflow: scroll; } -> p tag with scroll overflow.
+
+        4. Float property and clear property-> Float property and clear property.             
