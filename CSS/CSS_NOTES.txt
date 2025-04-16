@@ -257,13 +257,5 @@ CSS NOTES =>
             4. Margin -> Space outside the element.
                 example -> h1 { margin: 10px; } -> h1 tag with margin of 10px.
                 example -> p { margin: 20px; } -> p tag with margin of 20px.
-
-        2. Box-sizing property -> Box sizing property.
-            example -> h1 { box-sizing: border-box; } -> h1 tag with border box sizing.
-            example -> p { box-sizing: content-box; } -> p tag with content box sizing.
-
-        3. Overflow property -> Overflow property.
-            example -> h1 { overflow: hidden; } -> h1 tag with hidden overflow.
-            example -> p { overflow: scroll; } -> p tag with scroll overflow.
-
-        4. Float property and clear property-> Float property and clear property.             
+            
+            
