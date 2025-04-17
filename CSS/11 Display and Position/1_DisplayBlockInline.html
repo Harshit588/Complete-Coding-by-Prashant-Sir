@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Block/Inline Example</title>
+
+  <style>
+    .box {
+      text-align: center;
+      border: 2px solid black;
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 10px;
+      display: block;
+    }
+
+    .inline-box {
+      text-align: center;
+      border: 2px solid black;
+      width: 100px;
+      height: 100px;
+      background-color: lightgreen;
+      margin: 10px;
+      display: inline;
+    }
+
+    .inline-block {
+      text-align: center;
+      border: 2px solid black;
+      width: 100px;
+      height: 100px;
+      background-color: lightcoral;
+      margin: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+
+
+<body>
+
+  <h1>Display Block</h1>
+  <p>This is an example of display block elements.</p>
+
+  <div id="box1" class="box">Box1</div>
+  <div id="box2" class="box">Box2</div>
+  <div id="box3" class="box">Box3</div>
+
+  <hr>
+  <h1>Display Inline</h1>
+  <p>This is an example of display inline elements.</p>
+  <div class="inline-box">Inline Box 1</div>
+  <div class="inline-box">Inline Box 2</div>
+  <div class="inline-box">Inline Box 3</div>
+
+  <hr>
+
+  <h1>Dislay Inline-Block</h1>
+  <p>This is an example of display inline-block elements.</p>
+  <div class="inline-block" style="display: inline-block;">Inline Block 1</div>
+  <div class="inline-block" style="display: inline-block;">Inline Block 2</div>
+  <div class="inline-block" style="display: inline-block;">Inline Block 3</div>
+</body>
+
+</html>

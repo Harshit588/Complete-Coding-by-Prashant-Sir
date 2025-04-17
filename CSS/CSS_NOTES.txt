@@ -258,4 +258,25 @@ CSS NOTES =>
                 example -> h1 { margin: 10px; } -> h1 tag with margin of 10px.
                 example -> p { margin: 20px; } -> p tag with margin of 20px.
             
+5. Level5 -> Display and position ->
+
+        1. Display -> Display property.
+
+            1. Block Element -> Block element.
+                a. Start on new line.
+                b. Take up full width available.
+                c. Height and width can be set.
+                d. Margin and padding can be set.
+                example -> h1, p ,div { display: block; } -> h1, p and div tag as block element.
+
+            2. Inline Element -> Inline element.
+                a. Do not start on new line.
+                b. Take up only as much width as necessary.
+                c. Height and width cannot be set.
+                d. Margin and padding can be set.
+                example -> h1 { display: inline; } -> h1 tag as inline element.
+                example -> p { display: inline; } -> p tag as inline element.
+            
+        2. Responsive Website -> 
+        
             
