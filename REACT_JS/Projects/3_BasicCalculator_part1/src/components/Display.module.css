@@ -1,0 +1,11 @@
+.display {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin: 10px;
+  font-size: 1.4rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: right;
+  background-color: #fff;
+  box-sizing: border-box;
+}
